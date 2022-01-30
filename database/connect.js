@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost:27017/enomo_chat_database', {
+mongoose.connect('mongodb+srv://SPYDEi:Mano_ram123@cluster0.3oruv.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
