@@ -373,7 +373,7 @@ router.post('/send-image-message', auth.verifyUser, upload.single('image'), func
 app.use(router);
 
 
-server.listen(90);
+server.listen(process.env.PORT || 5000);
 
 module.exports = { io };
 module.exports = onlineUsers
